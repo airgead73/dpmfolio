@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
   render() {
-    return <div><h1>dpmfolio react</h1></div>
+    return <div><h1>dpmfolio react cli</h1></div>
   }
 }
 
