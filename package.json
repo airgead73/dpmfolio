@@ -6,8 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --out-dir dev --no-cache",
     "build": "parcel build src/index.html --out-dir dist --no-cache",
-    "clear": "rm -rf dev/*",
-    "clear:build": "rm -rf dist/*"
+    "clear": "rm -rf dev/* && rm -rf dist/*"
   },
   "repository": {
     "type": "git",
