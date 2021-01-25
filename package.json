@@ -1,0 +1,23 @@
+{
+  "name": "dpmfolio",
+  "version": "1.0.0",
+  "description": "portfolio test site",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airgead73/dpmfolio.git"
+  },
+  "keywords": [
+    "parcel",
+    "react"
+  ],
+  "author": "dan moneypenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airgead73/dpmfolio/issues"
+  },
+  "homepage": "https://github.com/airgead73/dpmfolio#readme"
+}
