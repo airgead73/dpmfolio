@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class App extends React.Component {
   render() {
-    return <div><h1>dpmfolio react cli <i class="fal fa-home"></i></h1></div>
+    return <div><h1>dpmfolio <i class="fal fa-home"></i></h1></div>
   }
 }
 

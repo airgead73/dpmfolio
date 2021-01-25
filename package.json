@@ -6,6 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html --out-dir dev --no-cache",
     "build": "parcel build src/index.html --out-dir dist --no-cache",
+    "stage": "netlify deploy",
+    "deploy": "netlify deploy --prod && rm -rf dist/*",
     "clear": "rm -rf dev/* && rm -rf dist/*"
   },
   "repository": {
