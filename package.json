@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/airgead73/dpmfolio/issues"
   },
-  "homepage": "https://github.com/airgead73/dpmfolio#readme"
+  "homepage": "https://github.com/airgead73/dpmfolio#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
