@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-class App extends React.Component {
-  render() {
-    return <div><h1>dpmfolio <i class="fal fa-home"></i></h1></div>
-  }
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-let container = document.getElementById('app');
 
-ReactDOM.render(<App/>, container);
+// class App extends React.Component {
+//   render() {
+//     return <div><h1>dpmfolio <i class="fal fa-home"></i></h1></div>
+//   }
+// }
+
+// let container = document.getElementById('root');
+
+// ReactDOM.render(<App/>, container);
